@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --fonte-principal: 'Inter';
+    --cor-primaria: #3F0071;
+    --cor-secundaria: #FB2576 ;
+    --cor-terciaria: #332FD0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 4em;
+    padding: 0 1em;
+}
+
+.informacao {
+    font-size: 2em;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 1.5px;
+}
+
+.box {
+    border: 2px solid var(--cor-secundaria);
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.1em 0.6em;
+    border-radius: 0.5em;
+    margin: 0.2em 0;
+}
+
+.btn__jogar {
+    border: 2px solid var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.1em 0.6em;
+    border-radius: 0.5em;
+    margin: 0.2em 0;
+    transition: 100ms;
+}
+
+.btn__jogar:hover {
+    border: 4px solid var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    font-weight: 500;
+    font-size: 2.5em;
+    transition: 100ms;
+}
